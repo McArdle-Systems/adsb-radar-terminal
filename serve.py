@@ -40,7 +40,7 @@ from envload import load_env
 
 WS_GUID = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11"   # RFC 6455 magic
 BROADCAST_SEC = 0.1                                 # push cadence when data changes
-SERVER_TRAIL_SEC = 240                              # per-aircraft history kept for snapshots
+SERVER_TRAIL_SEC = 600                              # per-aircraft history kept for snapshots
 
 # Mirror of config.js `endpoints` (same order). format is unused here — we just
 # relay the raw JSON body and let the browser parse it.

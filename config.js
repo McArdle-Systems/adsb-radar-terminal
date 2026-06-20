@@ -48,7 +48,7 @@ window.RADAR_CONFIG = {
   pulseMs: 2200,         // duration of the flare ring when a new plane appears
   fadeStartSec: 8,       // start dimming a contact after this much silence
   staleSec: 25,          // fully faded + dropped at this much silence
-  trailSec: 120,         // ACTUAL trail length: keep points from the last N seconds
+  trailSec: 600,         // ACTUAL trail length: keep points from the last N seconds (10 min)
   trailLength: 5000,     // absurd backstop only — guards render cost vs a jittery
                          //   high-rate feed; trailSec is the real limiter. Points
                          //   are added only on movement, so a parked blip adds none.
