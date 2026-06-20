@@ -1,0 +1,9 @@
+# Normalize line endings: store text as LF in the repo, auto-detect on checkout.
+* text=auto
+
+# Binary assets — no line-ending conversion, no diffing (and NOT Git LFS).
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
