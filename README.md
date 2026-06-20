@@ -8,6 +8,8 @@ borders, ARTCC (ATC center) boundaries, and airports.
 It's built to feel like sitting at a radar scope rather than looking at a map — though a
 real map view can drop in behind the same renderer interface later.
 
+![ADSB Radar Terminal](assets/radar_screenshot.png)
+
 ```
 scroll = zoom   ·   +/− keys   ·   0 = reset   ·   click = unlock audio
 ```
