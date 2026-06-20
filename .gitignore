@@ -1,0 +1,11 @@
+# personal / deployment config — never commit
+.env
+site.js                 # static fallback for direct mode (serve.py generates it live)
+
+# generated map overlays — location-revealing + large; regenerate with:
+#   python fetch_overlays.py
+data/
+
+# misc
+*.log
+__pycache__/
